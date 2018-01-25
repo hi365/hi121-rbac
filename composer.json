@@ -1,0 +1,34 @@
+{  
+  "name": "hi121-rbac",  
+  "description": "hi121-rbac",  
+  "keywords": [  
+    "yii2",  
+    "hi121-rbac"  
+  ],  
+  "homepage": "https://github.com/hi365/hi121-rbac",  
+  "type": "yii2-extension",  
+  "license": "MIT",  
+  "support": {  
+    "source": "https://github.com/hi365/hi121-rbac"  
+  },  
+  "authors": [  
+    {  
+      "name": "kelei",  
+      "email": "5735570@qq.com"  
+    }  
+  ],  
+  "minimum-stability": "stable",  
+  "require": {  
+    "php": ">=5.4.0",  
+    "yiisoft/yii2": ">=2.0.6"  
+     
+  },  
+  "autoload": {  
+    "psr-4": {  
+      "hi121\\": ""  
+    }  
+  },  
+  "config": {  
+    "process-timeout": 1800  
+  }  
+}
